@@ -1,0 +1,40 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  height: 20vh;
+
+  .logo {
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+
+  }
+
+  .navCentr {
+    display: flex;
+
+    ul {
+      width: 250px;
+      list-style-type: none;
+
+      h1 {
+        margin-bottom: 20px;
+        font-size: 22px;
+      }
+    }
+
+    li {
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+  }
+
+  .navRight {
+    ul li {
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+  }
+}
